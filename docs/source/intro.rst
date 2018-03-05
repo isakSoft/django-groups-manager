@@ -12,6 +12,7 @@ or the repository master version for latest updates::
 Add ``groups_manager`` to installed apps::
    
    INSTALLED_APPS += (
+       'guardian', #add guardian app for django 1.9.2
        'groups_manager',
    )
 
